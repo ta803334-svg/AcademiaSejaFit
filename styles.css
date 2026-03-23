@@ -8,7 +8,7 @@ body {
     background-color: rgb(0, 0, 0);
     width: 100%;
     max-width: 100vw !important;
-    
+
     height: 200vh;
 
 }
@@ -693,8 +693,9 @@ main {
                     height: 100%;
                     width: 100%;
                     padding: 1%;
-                    h5{
-                        margin-left: 22% ;
+
+                    h5 {
+                        margin-left: 22%;
                         color: rgb(255, 255, 255);
                     }
 
@@ -943,10 +944,11 @@ main {
 
     .instrutor {
         height: 60vh !important;
-        h5{
+
+        h5 {
             font-size: 1.3rem !important;
-             margin-left: 12% !important;
-             margin-top: -3% !important;
+            margin-left: 12% !important;
+            margin-top: -3% !important;
         }
     }
 
@@ -964,14 +966,16 @@ main {
     body {
         height: 437vh !important;
     }
-    header{
+
+    header {
         height: 15vh !important;
         display: flex;
         flex-direction: column;
         padding: 2% !important;
-        nav{
-           
-             margin-left: 7% !important;
+
+        nav {
+
+            margin-left: 7% !important;
         }
     }
 
@@ -1078,16 +1082,18 @@ main {
             position: absolute !important;
             top: -14% !important;
         }
-        h5{
+
+        h5 {
             font-size: 1.1rem !important;
-             margin-left: 7% !important;
-             margin-top: -2% !important;
+            margin-left: 7% !important;
+            margin-top: -2% !important;
         }
     }
 
     .Localizacao {
         height: 100vh !important;
-        h2{
+
+        h2 {
             position: absolute !important;
             margin-top: -59% !important;
             margin-left: -22% !important;
@@ -1106,11 +1112,12 @@ main {
             margin-top: -35% !important;
             flex-direction: column !important;
             width: 60% !important;
-            margin-left: -30%  !important;
+            margin-left: -30% !important;
             height: 25% !important;
             position: absolute !important;
+
             .divEndereco {
-                
+
                 width: 70% !important;
                 height: 55% !important;
                 margin-top: 11% !important;
@@ -1133,19 +1140,21 @@ main {
                 }
             }
         }
+
         iframe {
             position: absolute !important;
             width: 80% !important;
             height: 30% !important;
             margin-top: 20% !important;
-            margin-left: -40%  !important;
+            margin-left: -40% !important;
         }
     }
 
     .contatos {
         height: 50vh !important;
-        .divContatosTitulo{
-            h4{
+
+        .divContatosTitulo {
+            h4 {
                 font-size: 2.5rem !important;
             }
         }
@@ -1154,82 +1163,97 @@ main {
 
 /* Smartphones Grandes - Ex: iPhone 14/15 Pro Max (430px) */
 @media (max-width: 430px) {
-    html,body{
+
+    html,
+    body {
         height: 690vh !important;
         width: 100% !important;
         min-width: 100vw !important;
     }
+
     header {
-       
+
         overflow: hidden !important;
         max-width: 100vw !important;
         box-sizing: border-box !important;
         display: flex !important;
-        .Movimento{
+
+        .Movimento {
             margin-left: -1% !important;
         }
+
         width: 100% !important;
         height: 25vh !important;
-        a{
+
+        a {
             font-size: 1rem !important;
         }
-        nav{
+
+        nav {
             display: flex !important;
             margin-left: 1% !important;
-            
+
         }
 
-        .matricular{
+        .matricular {
             display: flex !important;
             justify-content: center;
             align-items: center;
             width: 50% !important;
-             margin-left: 1% !important;
-             margin-top: 2% !important;
+            margin-left: 1% !important;
+            margin-top: 2% !important;
         }
     }
 
-    .hero{
+    .hero {
         width: 100vw !important;
         height: 110vh !important;
-        .containerHero1{
+
+        .containerHero1 {
             margin-top: 30% !important;
-            h1{
+
+            h1 {
                 font-size: 4rem !important;
             }
-            p{
+
+            p {
                 width: 100% !important;
                 font-size: 1.2rem !important;
             }
         }
-        .containerHero2{
-            .informacoesHero1{
+
+        .containerHero2 {
+            .informacoesHero1 {
                 width: 50% !important;
                 justify-content: center;
                 align-items: center;
                 display: flex;
                 flex-direction: column;
-                h2{
+
+                h2 {
                     font-size: 1rem !important;
                 }
-                h4{
+
+                h4 {
                     font-size: 0.9rem !important;
                 }
             }
         }
     }
-    .planos{
+
+    .planos {
         height: 290vh !important;
-        
-        .divPlanos1{
+
+        .divPlanos1 {
             margin-top: -90% !important;
-            p{
+
+            p {
                 font-size: 0.9rem !important;
                 width: 100% !important;
             }
         }
 
-        .planos-container{
+        .planos-container {
             display: flex;
             justify-content: center;
             align-items: center;
@@ -1238,23 +1262,25 @@ main {
             gap: 2% !important;
 
 
-            .planoBasico{
+            .planoBasico {
                 position: absolute !important;
                 width: 80% !important;
                 height: 70% !important;
                 top: 160% !important;
 
-                .preco{
+                .preco {
                     position: absolute !important;
                     top: 25% !important;
                     margin: auto 15% !important;
                 }
-                .informacoesPlano{
+
+                .informacoesPlano {
                     position: absolute !important;
                     top: 38% !important;
                     margin: auto 29% !important;
                 }
-                .btn{
+
+                .btn {
                     width: 50% !important;
                     margin: auto 25% !important;
                     position: absolute !important;
@@ -1263,23 +1289,26 @@ main {
                 }
 
             }
-            .planoPremium{
+
+            .planoPremium {
                 position: absolute !important;
                 width: 80% !important;
                 height: 70% !important;
                 top: 240% !important;
 
-                .preco{
+                .preco {
                     position: absolute !important;
                     top: 25% !important;
                     margin: auto 15% !important;
                 }
-                .informacoesPlano{
+
+                .informacoesPlano {
                     position: absolute !important;
                     top: 38% !important;
                     margin: auto 29% !important;
                 }
-                .btn{
+
+                .btn {
                     width: 50% !important;
                     margin: auto 25% !important;
                     position: absolute !important;
@@ -1287,156 +1316,233 @@ main {
 
                 }
             }
-            .planoBlack{
+
+            .planoBlack {
                 position: absolute !important;
                 width: 80% !important;
                 height: 70% !important;
                 top: 320% !important;
 
-                .preco{
+                .preco {
                     position: absolute !important;
                     top: 27% !important;
                     margin: auto 15% !important;
                 }
-                .informacoesPlano{
+
+                .informacoesPlano {
                     position: absolute !important;
                     top: 38% !important;
                     margin: auto 29% !important;
                 }
-                .btn{
+
+                .btn {
                     width: 50% !important;
                     margin: auto 25% !important;
                     position: absolute !important;
                     top: 80% !important;
-                }       
+                }
             }
         }
     }
-    .horarios{
-        
+
+    .horarios {
+
         height: 80vh !important;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: center;
     }
-    .instrutor{
 
-        
+    .instrutor {
+
+
         height: 100vh !important;
-         justify-content: center;
-         align-items: center;
-         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
         text-align: center;
-        .titleInstrutor{
-            h4{
+
+        .titleInstrutor {
+            h4 {
                 display: none;
             }
-            h2{
+
+            h2 {
                 color: rgb(94, 221, 26) !important;
                 margin-top: 130% !important;
             }
-            p{
+
+            p {
                 margin-top: 25% !important;
             }
         }
-         h2{
+
+        h2 {
             font-size: 2.9rem !important;
             position: absolute !important;
             top: 400% !important;
         }
-        .carousel-inner{
-            
+
+        .carousel-inner {
+
             width: 150% !important;
             margin-left: -25% !important;
             height: 119% !important;
 
-            .carousel-item{
+            .carousel-item {
                 position: absolute;
-               
+
                 min-height: 10% !important;
                 margin-top: -10% !important;
             }
-            h5{
+
+            h5 {
                 margin-top: -17% !important;
             }
-             
+
         }
     }
-    .Localizacao{
-        
+
+    .Localizacao {
+
         height: 140vh !important;
-        h2{
+
+        h2 {
             position: absolute !important;
             margin-top: -89% !important;
             margin-left: -40% !important;
             font-size: 2.7rem !important;
         }
-        .divEndereco{
-            
-           margin-top: 5% !important;
-           min-height: 90% !important;
-           min-width: 100% !important;
-            .textEndereco{
+
+        .divEndereco {
+
+            margin-top: 5% !important;
+            min-height: 90% !important;
+            min-width: 100% !important;
+
+            .textEndereco {
                 text-align: center !important;
             }
 
-            img{
+            img {
                 width: 60% !important;
                 height: 150% !important;
                 padding: 5% !important;
             }
         }
-        iframe{
+
+        iframe {
             position: absolute !important;
             width: 80% !important;
             height: 30% !important;
             margin-top: 50% !important;
-            margin-left: -40%  !important;
+            margin-left: -40% !important;
         }
-         
-    }
-    .contatos{
-        
-        height: 110vh !important;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
 
-         .divContatosTitulo{
+    }
+
+    .contatos {
+
+        height: 110vh !important;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .divContatosTitulo {
             text-align: center;
-            h4{
+
+            h4 {
                 font-size: 2.5rem !important;
             }
         }
-        input,textarea{
+
+        input,
+        textarea {
             min-width: 150% !important;
             padding: 2% !important;
         }
-        .btn{
+
+        .btn {
             width: 80% !important;
         }
-        
-         
+
+
     }
-    
+
 }
 
 /* Smartphones Padrão - Ex: iPhone 11, XR, 12/13 (414px) */
 @media (max-width: 414px) {
-    
+
 
     header {
-       
+
         overflow: hidden !important;
-        max-width: 100vw !important;   
-        height: 25vh !important; 
-        nav{
+        max-width: 100vw !important;
+        height: 25vh !important;
+
+        nav {
             margin-left: -5% !important;
         }
-        ul{
+
+        ul {
             padding: 1% !important;
             gap: 5% !important;
+        }
+    }
+}
+
+@media (max-width: 375px) {
+
+
+    header {
+
+        overflow: hidden !important;
+        max-width: 100vw !important;
+        height: 22vh !important;
+
+
+        nav {
+            margin-left: -10% !important;
+        }
+
+        ul {
+            padding: 1% !important;
+            gap: 5% !important;
+        }
+    }
+
+
+    .planos {
+        .divPlanos1 {
+            p {
+                font-size: 0.8rem !important;
+            }
+        }
+    }
+
+    .instrutor {
+        .titleInstrutor {
+            h2 {
+
+                margin-top: 147% !important;
+            }
+        }
+
+        .carousel-item {
+            h5 {
+                margin-left: 5% !important;
+                margin-top: -25% !important;
+            }
+        }
+    }
+
+
+    .Localizacao{
+        h2{
+            margin-left: -45% !important;
+            margin-top: -115% !important;
         }
     }
 }
