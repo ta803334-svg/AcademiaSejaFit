@@ -1488,7 +1488,7 @@ main {
     }
 
     header {
-
+        background-color: #91ff23;
         overflow: hidden !important;
         max-width: 100vw !important;
         height: 20vh !important;
@@ -1650,11 +1650,14 @@ main {
 
 
     .planos {
-        background: #68e713 !important;
+       
 
         .divPlanos1 {
             p {
                 font-size: 0.8rem !important;
+            }
+            .planoBasico{
+                background-color: royalblue !important;
             }
         }
     }
