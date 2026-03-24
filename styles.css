@@ -1633,6 +1633,14 @@ main {
     .contatos {
         height: 80vh !important;
 
+        form{
+            
+
+            textarea {
+                height: 30% !important;
+            }
+        }
+
     }
 
 }
