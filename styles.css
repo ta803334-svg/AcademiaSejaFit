@@ -1506,7 +1506,7 @@ main {
 
     .hero {
         width: 100vw !important;
-        height: 100vh !important;
+        height: 92vh !important;
 
         .containerHero1 {
             margin-top: 40% !important;
@@ -1541,7 +1541,7 @@ main {
             border-radius: solid 5px rgb(94, 221, 26);
 
             .planoBasico {
-                top: 110% !important;
+                top: 140% !important;
                 position: absolute !important;
                 height: 50vh !important;
             }
