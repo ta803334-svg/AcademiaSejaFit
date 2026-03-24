@@ -1491,7 +1491,7 @@ main {
     }
 
     header {
-        background-color: rgb(88, 215, 15);
+        
         overflow: hidden !important;
         max-width: 100vw !important;
         height: 20vh !important;
@@ -1614,6 +1614,7 @@ main {
 
 
         .informacoesLocalizacao {
+            margin-top: 60% !important;
             .divEndereco {
                 img {
                     height: 7vh !important;
