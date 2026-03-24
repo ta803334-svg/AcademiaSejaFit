@@ -1547,7 +1547,7 @@ main {
             }
 
             .planoPremium {
-                top: 210% !important;
+                top: 200% !important;
                 position: absolute !important;
                 height: 50vh !important;
             }
@@ -1581,7 +1581,7 @@ main {
             position: absolute !important;
 
             h2 {
-                margin-top: -70% !important;
+                margin-top: -100% !important;
                 font-size: 2rem !important;
                 position: absolute !important;
             }
