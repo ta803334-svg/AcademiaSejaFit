@@ -1485,7 +1485,7 @@ main {
 @media (max-width: 415px) {
 
     body {
-        background-color: black;
+        background-color: black !important;
         height: 604vh !important;
         width: 375px !important;
         min-width: 100vw !important;
