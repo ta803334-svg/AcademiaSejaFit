@@ -1165,34 +1165,26 @@ main {
 @media (max-width: 431px) {
 
 
-    body {
+    html,body {
 
-        height: 690vh !important;
+        height: 650vh !important;
         width: 375px !important;
         min-width: 100vw !important;
-        background-color: brown;
     }
 
     header {
 
-
+        
         max-width: 100vw !important;
-        box-sizing: border-box !important;
         display: flex !important;
-
+        height: 15vh !important;
+        
         .Movimento {
             margin-left: -1% !important;
         }
 
-        width: 100% !important;
-        height: 25vh !important;
-
         a {
             font-size: 1rem !important;
-
-            a {
-                color: aqua !important;
-            }
         }
 
         nav {
@@ -1207,13 +1199,13 @@ main {
             align-items: center;
             width: 50% !important;
             margin-left: 1% !important;
-            margin-top: 2% !important;
+            margin-top: -2% !important;
         }
     }
 
     .hero {
-        width: 100vw !important;
-        height: 110vh !important;
+        width: 100% !important;
+        height: 70vh !important;
 
         .containerHero1 {
             margin-top: 30% !important;
@@ -1248,10 +1240,10 @@ main {
     }
 
     .planos {
-        height: 290vh !important;
+        height: 210vh !important;
 
         .divPlanos1 {
-            margin-top: -90% !important;
+            margin-top: -120% !important;
 
             p {
                 font-size: 0.9rem !important;
@@ -1271,8 +1263,8 @@ main {
             .planoBasico {
                 position: absolute !important;
                 width: 80% !important;
-                height: 70% !important;
-                top: 160% !important;
+                height: 50% !important;
+                top: 100% !important;
 
                 .preco {
                     position: absolute !important;
@@ -1299,8 +1291,8 @@ main {
             .planoPremium {
                 position: absolute !important;
                 width: 80% !important;
-                height: 70% !important;
-                top: 240% !important;
+                height: 50% !important;
+                top: 160% !important;
 
                 .preco {
                     position: absolute !important;
@@ -1326,8 +1318,8 @@ main {
             .planoBlack {
                 position: absolute !important;
                 width: 80% !important;
-                height: 70% !important;
-                top: 320% !important;
+                height: 50% !important;
+                top: 220% !important;
 
                 .preco {
                     position: absolute !important;
@@ -1353,7 +1345,7 @@ main {
 
     .horarios {
 
-        height: 80vh !important;
+        height: 40vh !important;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -1362,25 +1354,27 @@ main {
 
     .instrutor {
 
-
-        height: 100vh !important;
+        
+        height: 70vh !important;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         text-align: center;
 
         .titleInstrutor {
+            margin-top: 1% !important;
+            
             h4 {
                 display: none;
             }
 
             h2 {
                 color: rgb(94, 221, 26) !important;
-                margin-top: 130% !important;
+                margin-top: -160% !important;
             }
 
             p {
-                margin-top: 25% !important;
+                margin-top: 40% !important;
             }
         }
 
@@ -1404,39 +1398,47 @@ main {
             }
 
             h5 {
-                margin-top: -17% !important;
+                margin-top: -21% !important;
+                margin-left: -4% !important;
             }
 
         }
     }
 
     .Localizacao {
-
-        height: 140vh !important;
+        
+        height: 130vh !important;
 
         h2 {
             position: absolute !important;
-            margin-top: -89% !important;
+            margin-top: -129% !important;
             margin-left: -40% !important;
             font-size: 2.7rem !important;
         }
 
-        .divEndereco {
+        .informacoesLocalizacao{
+           
+            height: 60% !important;
+            margin-top: -110% !important;
+            .divEndereco {
 
-            margin-top: 5% !important;
-            min-height: 90% !important;
-            min-width: 100% !important;
+                height: 40% !important;
+                width: 60% !important;
+            
+            
 
             .textEndereco {
                 text-align: center !important;
             }
 
             img {
-                width: 60% !important;
-                height: 150% !important;
-                padding: 5% !important;
+                width: 40% !important;
+                height: 50% !important;
+                padding: 7% !important;
             }
         }
+        }
+        
 
         iframe {
             position: absolute !important;
@@ -1449,7 +1451,7 @@ main {
     }
 
     .contatos {
-
+        background-color: rgb(16, 15, 15);
         height: 110vh !important;
         justify-content: center;
         align-items: center;
@@ -1465,6 +1467,7 @@ main {
 
         input,
         textarea {
+            height: 12% !important;
             min-width: 150% !important;
             padding: 2% !important;
         }
@@ -1488,7 +1491,7 @@ main {
     }
 
     header {
-        
+        background-color: rgb(88, 215, 15);
         overflow: hidden !important;
         max-width: 100vw !important;
         height: 20vh !important;
