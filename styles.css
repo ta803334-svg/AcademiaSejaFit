@@ -1494,7 +1494,7 @@ main {
         height: 20vh !important;
 
         nav {
-            margin-left: -2% !important;
+            margin-left: -4% !important;
         }
 
         ul {
@@ -1547,13 +1547,13 @@ main {
             }
 
             .planoPremium {
-                top: 165% !important;
+                top: 185% !important;
                 position: absolute !important;
                 height: 50vh !important;
             }
 
             .planoBlack {
-                top: 220% !important;
+                top: 250% !important;
                 position: absolute !important;
                 height: 50vh !important;
             }
